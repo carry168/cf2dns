@@ -23,7 +23,7 @@ DOMAINS = json.loads(os.environ["DOMAINS"])  #{"zcarry.vip": {"cfcm": ["CM"], "c
 SECRETID = os.environ["SECRETID"]    #'AKIDIySkqiLkvtb4KODn8GApF13rQltnQ7GB'
 SECRETKEY = os.environ["SECRETKEY"]   #'kGYeXCcmkU2MTN5YmocBWfdQbx87uTr6'
 #默认为普通版本 不用修改
-AFFECT_NUM = 2
+AFFECT_NUM = 1
 #DNS服务商 如果使用DNSPod改为1 如果使用阿里云解析改成2
 DNS_SERVER = 1
 #解析生效时间，默认为600秒 如果不是DNS付费版用户 不要修改!!!
