@@ -21,8 +21,7 @@ KEY = "82vTqQrTLuP4"
 #CM:移动 CU:联通 CT:电信
 #修改需要更改的dnspod域名核子域名
 DOMAINS = {
-    "hostmonit.com": {"@": ["CM","CU","CT"], "shop": ["CM", "CU", "CT"], "stock": ["CM","CU","CT"]},
-    "4096.me": {"@": ["CM","CU","CT"], "vv": ["CM","CU","CT"]}
+    {"zacrry.vip": {"cfcm": ["CM"], "cfcu": ["CU"], "cfct": ["CT"]}}
 }
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
