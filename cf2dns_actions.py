@@ -18,7 +18,7 @@ from dns.aliyun import AliApi
 KEY = os.environ["KEY"]  #"82vTqQrTLuP4"
 #CM:移动 CU:联通 CT:电信
 #修改需要更改的dnspod域名核子域名
-DOMAINS = json.loads(os.environ["DOMAINS"])  #{"zcarry.vip": {"cfcm": ["CM"], "cfcu": ["CU"], "cfct": ["CT"]}}
+DOMAINS = json.loads(os.environ["DOMAINS"])  #{"zcarry.vip": {"cm": ["CM"], "cu": ["CU"], "ct": ["CT"]}}
 #腾讯云后台获取 https://console.cloud.tencent.com/cam/capi
 SECRETID = os.environ["SECRETID"]    #'AKIDIySkqiLkvtb4KODn8GApF13rQltnQ7GB'
 SECRETKEY = os.environ["SECRETKEY"]   #'kGYeXCcmkU2MTN5YmocBWfdQbx87uTr6'
