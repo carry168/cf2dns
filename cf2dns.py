@@ -16,7 +16,7 @@ from log import Logger
 import traceback
 
 #可以从https://shop.hostmonit.com获取
-KEY = "o1zrmHAF"
+KEY = "82vTqQrTLuP4"
 
 #CM:移动 CU:联通 CT:电信
 #修改需要更改的dnspod域名核子域名
@@ -26,7 +26,7 @@ DOMAINS = {
 }
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
-AFFECT_NUM = 2
+AFFECT_NUM = 1
 
 #DNS服务商 如果使用DNSPod改为1 如果使用阿里云解析改成2
 DNS_SERVER = 1
